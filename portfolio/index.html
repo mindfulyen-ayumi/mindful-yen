@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Mindful Yen</title>
+<meta name="description" content="Japanese-inspired productivity templates rooted in kakeibo. A small design studio based in Tokyo.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F5F1E8;
+  color: #1A1A1A;
+  line-height: 1.6;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 80px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #D4CCB8;
+}
+
+header .brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 36pt;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #1A1A1A;
+}
+
+header .tagline {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 14pt;
+  color: #6B6B6B;
+  margin-top: 8px;
+}
+
+header nav {
+  margin-top: 32px;
+  font-size: 10pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #555;
+}
+
+header nav a {
+  color: #555;
+  text-decoration: none;
+  margin: 0 18px;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+}
+
+header nav a:hover,
+header nav a.current {
+  border-color: #8B0000;
+}
+
+.intro {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 80px auto;
+}
+
+.intro h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 28pt;
+  margin-bottom: 20px;
+  color: #1A1A1A;
+}
+
+.intro p {
+  font-size: 11pt;
+  color: #444;
+  line-height: 1.75;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.card {
+  background: #FFFFFF;
+  padding: 32px 28px;
+  border: 1px solid #E5DFCD;
+}
+
+.card .num {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 11pt;
+  color: #8B0000;
+  letter-spacing: 0.15em;
+}
+
+.card .title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 18pt;
+  line-height: 1.25;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  color: #1A1A1A;
+}
+
+.card .category {
+  font-size: 9pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #6B6B6B;
+  margin-bottom: 18px;
+}
+
+.card .desc {
+  font-size: 10.5pt;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.card .price {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14pt;
+  font-weight: 700;
+  color: #3A5F5F;
+  letter-spacing: 0.05em;
+}
+
+.about-block {
+  max-width: 720px;
+  margin: 0 auto 80px auto;
+  padding: 60px 40px;
+  background: #FFFFFF;
+  border: 1px solid #E5DFCD;
+}
+
+.about-block h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 22pt;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.about-block p {
+  font-size: 11pt;
+  color: #333;
+  margin-bottom: 16px;
+  line-height: 1.75;
+}
+
+footer {
+  text-align: center;
+  padding: 60px 0 40px 0;
+  border-top: 1px solid #D4CCB8;
+  font-size: 10pt;
+  color: #6B6B6B;
+}
+
+footer .contact {
+  margin-top: 12px;
+  font-weight: 500;
+  color: #1A1A1A;
+}
+
+footer .small {
+  margin-top: 20px;
+  font-size: 9pt;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #888;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="brand">Mindful Yen</div>
+    <div class="tagline">Japanese wisdom for modern money</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/portfolio" class="current">Portfolio</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h1>A selection of recent work</h1>
+    <p>
+      Ten templates from our studio, chosen to give a clear picture of how we design.
+      Each one is rooted in kakeibo — the Japanese household finance tradition founded
+      in 1904 — and built for readers who prefer quiet structure to loud optimization.
+    </p>
+  </section>
+
+  <section class="grid">
+
+    <div class="card">
+      <div class="num">No. 01</div>
+      <div class="title">The Complete Kakeibo Journal</div>
+      <div class="category">Printable · 52-Page PDF</div>
+      <div class="desc">A full-year kakeibo journal, redesigned for Western readers. Four-envelope spending categories, monthly reflections, and the traditional four questions.</div>
+      <div class="price">$29</div>
+    </div>
+
+    <div class="card">
+      <div class="num">No. 02</div>
+      <div class="title">Notion Kakeibo Dashboard</div>
+      <div class="category">Notion Template · Editable</div>
+      <div class="desc">The kakeibo method, translated into a Notion workspace. Monthly database, category breakdowns, reflection toggles, and savings goals.</div>
+      <div class="price">$35</div>
+    </div>
+
+    <div class="card">
+      <div class="num">No. 03</div>
+      <div class="title">Weekly Kakeibo Planner</div>
+      <div class="category">Printable · Weekly Layout</div>
+      <div class="desc">A lighter entry point into kakeibo — one week per spread, with four envelope totals, small wins, and a Sunday reflection page.</div>
+      <div class="price">$19</div>
+    </div>
+
+    <div class="card">
+      <div class="num">No. 04</div>
+      <div class="title">Mindful Money Worksheets</div>
+      <div class="category">Worksheet Bundle · 12 Pages</div>
+      <div class="desc">Twelve single-purpose worksheets for specific moments: before a large purchase, at year-end, after an emergency. Each page stands alone.</div>
+      <div class="price">$24</div>
+    </div>
+
+    <div class="card">
+      <div class="num">No. 05</div>
+      <div class="title">Japanese Savings Jar Printables</div>
+      <div class="category">Printable Graphics · 6 Styles</div>
+      <div class="desc">Six illustrated savings jars rooted in Japanese design motifs — tea caddy, sakura, waves, mountain, moon, garden. Print, label, fill.</div>
+      <div class="price">$15</div>
+    </div>
+
+    <div class="card">
+      <div class="num">No. 06</div>
+      <div class="title">Ikigai Finance Notion Template</div>
+      <div class="category">Notion Template · Framework</div>
+      <div class="desc">The ikigai framework, applied to money decisions. Four overlapping fields — need, love, skill, value — to evaluate spending and income.</div>
+      <div class="price">$32</div>
+    </div>
+
+    <div class="card">
+      <div class="num">No. 07</div>
+      <div class="title">Seasonal Reset Ritual Planner</div>
+      <div class="category">Seasonal Template · 4 Per Year</div>
+      <div class="desc">Four quiet rituals, one per season, for resetting finances the way Japanese households clean a home at the change of the year.</div>
+      <div class="price">$22</div>
+    </div>
+
+    <div class="card">
+      <div class="num">No. 08</div>
+      <div class="title">Minimalist Monthly Budget</div>
+      <div class="category">Budget Template · Printable + Notion</div>
+      <div class="desc">A stripped-down monthly budget — one page, four columns, no pie charts. For readers who have already outgrown the category-heavy apps.</div>
+      <div class="price">$25</div>
+    </div>
+
+    <div class="card">
+      <div class="num">No. 09</div>
+      <div class="title">Wabi-Sabi Habit Tracker Set</div>
+      <div class="category">Habit Tracker · 6 Layouts</div>
+      <div class="desc">Six habit tracker layouts built on wabi-sabi principles — no streak pressure, no perfectionism, space for the imperfect week.</div>
+      <div class="price">$18</div>
+    </div>
+
+    <div class="card">
+      <div class="num">No. 10</div>
+      <div class="title">New Year Financial Reset Bundle</div>
+      <div class="category">Seasonal Bundle · Printable + Notion</div>
+      <div class="desc">The full New Year reset used by the Mindful Yen studio — year-end review, next-year intentions, four-envelope redraw, and a monthly calendar.</div>
+      <div class="price">$39</div>
+    </div>
+
+  </section>
+
+  <section class="about-block">
+    <h2>About the studio</h2>
+    <p>
+      Mindful Yen is a small design studio based in Tokyo, making productivity and
+      finance templates rooted in Japanese mindful-living traditions.
+    </p>
+    <p>
+      Our work centers on kakeibo — the household finance book invented in 1904 by
+      Japanese journalist Motoko Hani — and adapts it into modern Notion templates,
+      printable planners, and seasonal reset worksheets for a global audience.
+    </p>
+    <p>
+      Every piece is designed in the same quiet palette: washi cream, charcoal,
+      and one accent of deep indigo or aged maroon. Typography is Cormorant Garamond
+      for display, Inter for text. We make tools that look like something you would
+      keep on a wooden desk by a window.
+    </p>
+    <p>
+      Led by Ayumi Sato, editor and translator based in Tokyo.
+    </p>
+  </section>
+
+  <footer>
+    <div>Mindful Yen — a small studio in Tokyo.</div>
+    <div class="contact">contact@mindfulyen.com</div>
+    <div class="small">© 2026 Mindful Yen · All rights reserved</div>
+  </footer>
+
+</div>
+</body>
+</html>
