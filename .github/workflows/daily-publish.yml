@@ -1,0 +1,35 @@
+name: Daily Publish
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run build.py
+        run: python build.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blog/index.html sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No changes to publish today."
+          else
+            git commit -m "chore: daily publish $(date -u +%Y-%m-%d)"
+            git push
+          fi
