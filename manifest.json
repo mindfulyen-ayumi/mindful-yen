@@ -1,0 +1,686 @@
+{
+  "_comment": "Article manifest for Mindful Yen drip publishing. status=published+publish_date<=today => shown on /blog/. status=planned => slug exists in plan but no HTML yet.",
+  "site": {
+    "title": "Mindful Yen",
+    "url": "https://mindfulyen.com",
+    "author": "Ayumi Sato",
+    "tagline": "Essays on kakeibo and the quiet practice of attention"
+  },
+  "articles": [
+    {
+      "slug": "digital-kakeibo-planner",
+      "title": "The Best Digital Kakeibo Planner Setup (From a Daily User)",
+      "excerpt": "If you have searched for a digital kakeibo planner recently, you have probably run into the same three things I did: a handful of paid iPhone apps with unclear update status, a few hundred Etsy spreadsheets of varying quality, and a growing number of Notion templates.",
+      "read_min": 12,
+      "publish_date": "2026-04-15",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "kakeibo-vs-ynab",
+      "title": "Kakeibo vs YNAB: An Honest Comparison After Using Both",
+      "excerpt": "I want to be careful in this essay. Both kakeibo and YNAB (You Need A Budget) have devoted communities, and I think both are good systems. I have used both for over a year each.",
+      "read_min": 14,
+      "publish_date": "2026-04-16",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "japanese-budget-method",
+      "title": "The Japanese Budget Method: A Quieter Way to Handle Money",
+      "excerpt": "There is a version of the Japanese budget method that English-language personal finance has turned into a small industry — the magical Japanese saving secret, usually illustrated with a cherry blossom.",
+      "read_min": 12,
+      "publish_date": "2026-04-17",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "how-to-start-a-kakeibo",
+      "title": "How to Start a Kakeibo: A Gentle Guide from Tokyo",
+      "excerpt": "The question I am asked most often, by readers of Mindful Yen and by friends who notice me carrying a small brown ledger to cafés, is the same one: how do I actually start a kakeibo?",
+      "read_min": 13,
+      "publish_date": "2026-04-18",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "kakeibo-notion-template",
+      "title": "The Kakeibo Notion Template I Actually Use (From Tokyo)",
+      "excerpt": "If you have been looking for a kakeibo Notion template that feels faithful to the Japanese original — not a generic budget tracker with a washi-paper background — this is the setup I use.",
+      "read_min": 12,
+      "publish_date": "2026-04-19",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "four-questions-of-kakeibo",
+      "title": "The Four Questions of Kakeibo (And How to Ask Them Honestly)",
+      "publish_date": "2026-04-21",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "best-notion-templates-slow-living",
+      "title": "The Best Notion Templates for Slow Living",
+      "publish_date": "2026-04-22",
+      "status": "published",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-is-not-what-you-think",
+      "title": "Ikigai Is Not What You Think (A Tokyo Take)",
+      "publish_date": "2026-04-23",
+      "status": "published",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "wabi-sabi-home-office",
+      "title": "Wabi-Sabi for the Home Office: A Quiet Setup",
+      "publish_date": "2026-04-24",
+      "status": "published",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-hardest-word-to-translate",
+      "title": "Mottainai: The Hardest Japanese Word to Translate",
+      "publish_date": "2026-04-25",
+      "status": "published",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "kakeibo-for-couples",
+      "title": "Kakeibo for Couples: How to Keep One Ledger Together",
+      "publish_date": "2026-04-26",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "notion-setup-for-solo-creators",
+      "title": "A Notion Setup for Solo Creators (From a Tokyo Editor)",
+      "publish_date": "2026-04-27",
+      "status": "published",
+      "theme": "notion"
+    },
+    {
+      "slug": "real-ikigai-diagram",
+      "title": "The Real Ikigai Diagram (And the One That Went Viral)",
+      "publish_date": "2026-04-28",
+      "status": "published",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "wabi-sabi-wardrobe",
+      "title": "The Wabi-Sabi Wardrobe: 22 Items That Have Lasted",
+      "publish_date": "2026-04-29",
+      "status": "published",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-monthly-budget",
+      "title": "Mottainai in My Monthly Budget (A Practical Framework)",
+      "publish_date": "2026-04-30",
+      "status": "published",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "why-kakeibo-beat-mint",
+      "title": "Why Kakeibo Beat My Mint Subscription",
+      "publish_date": "2026-05-01",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "replaced-bullet-journal-with-notion",
+      "title": "Why I Replaced My Bullet Journal with Notion",
+      "publish_date": "2026-05-02",
+      "status": "published",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-shaped-decision-to-quit-editing",
+      "title": "How Ikigai Shaped My Decision to Quit Editing",
+      "publish_date": "2026-05-03",
+      "status": "published",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "wabi-sabi-vs-minimalism",
+      "title": "Wabi-Sabi vs. Minimalism: Where the Line Sits",
+      "publish_date": "2026-05-04",
+      "status": "published",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "repair-mindset-five-things",
+      "title": "The Repair Mindset: Five Things I Didn't Throw Away This Year",
+      "publish_date": "2026-05-05",
+      "status": "published",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "cash-envelope-method-kakeibo",
+      "title": "The Cash Envelope Method, Reconsidered Through Kakeibo",
+      "publish_date": "2026-05-06",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "mindful-notion-workspace-reset",
+      "title": "The Mindful Notion Workspace: An End-of-Year Reset",
+      "publish_date": "2026-05-07",
+      "status": "published",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-for-freelancers",
+      "title": "Ikigai for Freelancers: A Quieter Definition",
+      "publish_date": "2026-05-08",
+      "status": "published",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "kintsugi-as-money-practice",
+      "title": "The Cracked Bowl Theory: Kintsugi as a Money Practice",
+      "publish_date": "2026-05-09",
+      "status": "published",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-and-subscriptions",
+      "title": "Mottainai and Subscriptions: A Quarterly Audit",
+      "publish_date": "2026-05-10",
+      "status": "published",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "kakeibo-and-adhd",
+      "title": "Kakeibo and ADHD: A Surprisingly Good Match",
+      "publish_date": "2026-05-11",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "notion-for-freelance-writers",
+      "title": "Notion for Freelance Writers: My Actual Setup",
+      "publish_date": "2026-05-12",
+      "status": "published",
+      "theme": "notion"
+    },
+    {
+      "slug": "ken-mogi-on-ikigai",
+      "title": "Ken Mogi on Ikigai: What the Anglophone World Misses",
+      "publish_date": "2026-05-13",
+      "status": "published",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "wabi-sabi-imperfect-productivity",
+      "title": "Wabi-Sabi and Imperfect Productivity",
+      "publish_date": "2026-05-14",
+      "status": "published",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-for-coffee-drinkers",
+      "title": "Mottainai for Coffee Drinkers (My ¥600/day Reckoning)",
+      "publish_date": "2026-05-15",
+      "status": "published",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "how-to-restart-kakeibo",
+      "title": "How to Restart Kakeibo After You've Quit (Three Times)",
+      "publish_date": "2026-05-16",
+      "status": "published",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "three-notion-databases-every-writer-needs",
+      "title": "The Three Notion Databases Every Writer Needs",
+      "publish_date": "2026-05-17",
+      "status": "published",
+      "theme": "notion"
+    },
+    {
+      "slug": "small-daily-ikigai-tea-hour",
+      "title": "Small Daily Ikigai: My Tea Ceremony Hour",
+      "publish_date": "2026-05-18",
+      "status": "published",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "slow-mornings-tokyo-routine",
+      "title": "Slow Mornings: A Tokyo Routine That Took Years to Earn",
+      "publish_date": "2026-05-19",
+      "status": "published",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "tokyo-used-book-habit",
+      "title": "The Used Book Habit (A Tokyo Mottainai Practice)",
+      "publish_date": "2026-05-20",
+      "status": "published",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "saturday-reset-weekly-kakeibo",
+      "title": "The Saturday Reset: A Weekly Kakeibo Ritual",
+      "publish_date": "2026-05-21",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "reading-log-notion-tsundoku",
+      "title": "Building a Reading Log in Notion (with Tsundoku in Mind)",
+      "publish_date": "2026-05-22",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-and-money",
+      "title": "Ikigai and Money: Why They Are Less Connected Than You Think",
+      "publish_date": "2026-05-23",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "wabi-sabi-in-kitchen",
+      "title": "Wabi-Sabi in My Kitchen (Three Tools I'd Replace, Three I Wouldn't)",
+      "publish_date": "2026-05-24",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-vs-frugality",
+      "title": "Mottainai vs. Frugality: Different Roots, Different Fruits",
+      "publish_date": "2026-05-25",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "kakeibo-for-freelancers-irregular-income",
+      "title": "Kakeibo for Freelancers with Irregular Income",
+      "publish_date": "2026-05-26",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "quiet-notion-dashboard",
+      "title": "A Quiet Notion Dashboard: Less Color, More Calm",
+      "publish_date": "2026-05-27",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-journal-practice",
+      "title": "The Ikigai Journal Practice (3 Questions, Every Sunday)",
+      "publish_date": "2026-05-28",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "slow-reading-habit",
+      "title": "The Slow Reading Habit (And Why I Stopped Speed-Reading)",
+      "publish_date": "2026-05-29",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-wardrobe",
+      "title": "The Mottainai Wardrobe: 18 Items, Five Years",
+      "publish_date": "2026-05-30",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "history-of-hani-motoko",
+      "title": "The History of Hani Motoko (And Why She Mattered)",
+      "publish_date": "2026-05-31",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "notion-vs-obsidian-one-year",
+      "title": "Notion vs. Obsidian: One Year of Both",
+      "publish_date": "2026-06-01",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-becomes-workism-warning",
+      "title": "When Ikigai Becomes Workism: A Warning",
+      "publish_date": "2026-06-02",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "wabi-sabi-and-aging",
+      "title": "Wabi-Sabi and Aging: A 35-Year-Old Reflection",
+      "publish_date": "2026-06-03",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-changed-grocery-shopping",
+      "title": "How Mottainai Changed My Grocery Shopping",
+      "publish_date": "2026-06-04",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "year-of-kakeibo",
+      "title": "A Year of Kakeibo: What I Spent, What I Saved, What I Learned",
+      "publish_date": "2026-06-05",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "weekly-review-notion-borrowed-from-kakeibo",
+      "title": "The Weekly Review in Notion (Borrowed from Kakeibo)",
+      "publish_date": "2026-06-06",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-after-40",
+      "title": "Ikigai After 40: A Conversation with My Mother",
+      "publish_date": "2026-06-07",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "why-i-buy-things-twice",
+      "title": "Why I Buy Things Twice (Wabi-Sabi Consumer Theory)",
+      "publish_date": "2026-06-08",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "five-mottainai-apps-honest-reviews",
+      "title": "Five Mottainai Apps (Honest Reviews)",
+      "publish_date": "2026-06-09",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "kakeibo-on-paper-vs-notion-vs-sheets",
+      "title": "Kakeibo on Paper vs. Notion vs. Google Sheets",
+      "publish_date": "2026-06-10",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "notion-templates-i-paid-for",
+      "title": "Notion Templates I Paid For (And Whether They Were Worth It)",
+      "publish_date": "2026-06-11",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "okinawan-origins-of-ikigai",
+      "title": "The Okinawan Origins of Ikigai (And What's Embellished)",
+      "publish_date": "2026-06-12",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "slow-email-practice",
+      "title": "Slow Email: A Practice for People Who Reply Fast",
+      "publish_date": "2026-06-13",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-in-marriage",
+      "title": "Mottainai in Marriage (A Conversation About Money)",
+      "publish_date": "2026-06-14",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "kakeibo-categories-i-actually-use",
+      "title": "The Kakeibo Categories I Actually Use",
+      "publish_date": "2026-06-15",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "minimal-notion-crm-tiny-studios",
+      "title": "A Minimal Notion CRM for Tiny Studios",
+      "publish_date": "2026-06-16",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-vs-hygge-vs-lagom",
+      "title": "Ikigai vs. Hygge vs. Lagom: Why Comparisons Fail",
+      "publish_date": "2026-06-17",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "wabi-sabi-long-distance-friendship",
+      "title": "Wabi-Sabi in Long-Distance Friendship",
+      "publish_date": "2026-06-18",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-capsule-office",
+      "title": "The Mottainai Capsule Office (Working with Three Pens)",
+      "publish_date": "2026-06-19",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "track-cash-spending-kakeibo",
+      "title": "How to Track Cash Spending in Kakeibo Without Going Mad",
+      "publish_date": "2026-06-20",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "notion-project-management-without-pain",
+      "title": "Notion for Project Management Without the Pain",
+      "publish_date": "2026-06-21",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "30-day-ikigai-reflection",
+      "title": "A 30-Day Ikigai Reflection (For People Who Hate Journaling)",
+      "publish_date": "2026-06-22",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "quiet-joy-of-repair-cafes",
+      "title": "The Quiet Joy of Repair Cafés",
+      "publish_date": "2026-06-23",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "wangari-maathai-mottainai",
+      "title": "Why Wangari Maathai Said Mottainai (Outside Japan)",
+      "publish_date": "2026-06-24",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "kakeibo-for-students",
+      "title": "Kakeibo for Students: A $50/week Practice",
+      "publish_date": "2026-06-25",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "notion-habit-tracker-doesnt-shame",
+      "title": "The Notion Habit Tracker That Doesn't Shame You",
+      "publish_date": "2026-06-26",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-and-career-pivots",
+      "title": "Ikigai and Career Pivots: My Three-Year Reset",
+      "publish_date": "2026-06-27",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "wabi-sabi-photography-no-filter",
+      "title": "Wabi-Sabi Photography: My Phone, My Garden, No Filter",
+      "publish_date": "2026-06-28",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-and-time",
+      "title": "Mottainai and Time: The Hardest Application",
+      "publish_date": "2026-06-29",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "kakeibo-question-i-never-want-to-answer",
+      "title": "The Kakeibo Question I Never Want to Answer",
+      "publish_date": "2026-06-30",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "personal-wiki-notion-japanese-style",
+      "title": "Building a Personal Wiki in Notion (in Japanese Style)",
+      "publish_date": "2026-07-01",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-word-doesnt-translate",
+      "title": "The Word Ikigai Doesn't Translate (And That's the Point)",
+      "publish_date": "2026-07-02",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "slow-cooking-and-slow-money",
+      "title": "Slow Cooking and Slow Money (They Are Related)",
+      "publish_date": "2026-07-03",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-restaurant-leftovers-tokyo",
+      "title": "Mottainai and Restaurant Leftovers (A Tokyo Etiquette Study)",
+      "publish_date": "2026-07-04",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "kakeibo-and-christmas",
+      "title": "Kakeibo and Christmas: Surviving December Without Guilt",
+      "publish_date": "2026-07-05",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "notion-ai-one-month-skeptic",
+      "title": "Notion AI: One Month In, From a Skeptic",
+      "publish_date": "2026-07-06",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "reading-list-7-books-on-ikigai",
+      "title": "Reading List: 7 Books on Ikigai (Some Disappointing)",
+      "publish_date": "2026-07-07",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "imperfect-notion-template-wabi-sabi",
+      "title": "The Imperfect Notion Template (A Wabi-Sabi Approach)",
+      "publish_date": "2026-07-08",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-gift-giving-tokyo",
+      "title": "Mottainai and Gift-Giving: A Tokyo Etiquette Note",
+      "publish_date": "2026-07-09",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "what-grandmothers-kakeibo-taught-me",
+      "title": "What My Grandmother's Kakeibo Taught Me About Marriage",
+      "publish_date": "2026-07-10",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "notion-template-for-substack",
+      "title": "The Notion Template I Use for My Substack",
+      "publish_date": "2026-07-11",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-for-burnout",
+      "title": "Ikigai for Burnout: A Gentle Re-Entry",
+      "publish_date": "2026-07-12",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "wabi-sabi-funeral-customs-tokyo",
+      "title": "Wabi-Sabi in Funeral Customs (A Tokyo Reflection)",
+      "publish_date": "2026-07-13",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-quarterly-reset",
+      "title": "The Mottainai Reset: A Quarterly Practice",
+      "publish_date": "2026-07-14",
+      "status": "planned",
+      "theme": "mottainai"
+    },
+    {
+      "slug": "kakeibo-and-therapy",
+      "title": "Kakeibo and Therapy: When Money Tracking Became Self-Knowledge",
+      "publish_date": "2026-07-15",
+      "status": "planned",
+      "theme": "kakeibo"
+    },
+    {
+      "slug": "migrated-12-years-of-notes-to-notion",
+      "title": "How I Migrated 12 Years of Notes to Notion",
+      "publish_date": "2026-07-16",
+      "status": "planned",
+      "theme": "notion"
+    },
+    {
+      "slug": "ikigai-conversation-with-myself-january",
+      "title": "The Ikigai Conversation I Have With Myself Every January",
+      "publish_date": "2026-07-17",
+      "status": "planned",
+      "theme": "ikigai"
+    },
+    {
+      "slug": "why-i-dont-throw-away-fathers-coat",
+      "title": "Why I Don't Throw Away My Father's Coat",
+      "publish_date": "2026-07-18",
+      "status": "planned",
+      "theme": "wabisabi"
+    },
+    {
+      "slug": "mottainai-for-travelers",
+      "title": "Mottainai for Travelers: How I Packed for Three Months",
+      "publish_date": "2026-07-19",
+      "status": "planned",
+      "theme": "mottainai"
+    }
+  ]
+}
