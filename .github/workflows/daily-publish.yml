@@ -1,8 +1,10 @@
 name: Daily Publish
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  # 毎日自動公開を一時停止中（2026-06-02 HIDE指示・案Aでcron無効化）。
+  # 再開するには下2行のコメントを外すだけ。
+  # schedule:
+  #   - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
